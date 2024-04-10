@@ -7,18 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE115C182BC2CF4300F37159 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE115C172BC2CF4300F37159 /* AuthManager.swift */; };
+		EE115C1A2BC2D48000F37159 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE115C192BC2D48000F37159 /* MenuView.swift */; };
+		EE115C1C2BC2D50B00F37159 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE115C1B2BC2D50B00F37159 /* GameView.swift */; };
+		EE115C1E2BC2D51A00F37159 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE115C1D2BC2D51A00F37159 /* LeaderBoardView.swift */; };
+		EE115C212BC2D52900F37159 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE115C202BC2D52900F37159 /* SettingsView.swift */; };
+		EE115C232BC2D53100F37159 /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE115C222BC2D53100F37159 /* BlogView.swift */; };
+		EE115C262BC2D62D00F37159 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE115C252BC2D62D00F37159 /* Color.swift */; };
 		EE49A2D52BC2C706007E15E4 /* Avia_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2D42BC2C706007E15E4 /* Avia_GameApp.swift */; };
 		EE49A2D72BC2C706007E15E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A2D62BC2C706007E15E4 /* ContentView.swift */; };
 		EE49A2D92BC2C707007E15E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE49A2D82BC2C707007E15E4 /* Assets.xcassets */; };
 		EE49A2DC2BC2C707007E15E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE49A2DB2BC2C707007E15E4 /* Preview Assets.xcassets */; };
+		EE49A2F02BC2CDF5007E15E4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EE49A2EF2BC2CDF5007E15E4 /* FirebaseAnalytics */; };
+		EE49A2F42BC2CDF5007E15E4 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EE49A2F32BC2CDF5007E15E4 /* FirebaseAnalyticsSwift */; };
+		EE49A2FC2BC2CDF5007E15E4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EE49A2FB2BC2CDF5007E15E4 /* FirebaseAuth */; };
+		EE49A3022BC2CDF5007E15E4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EE49A3012BC2CDF5007E15E4 /* FirebaseDatabase */; };
+		EE49A3042BC2CDF5007E15E4 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EE49A3032BC2CDF5007E15E4 /* FirebaseDatabaseSwift */; };
+		EE49A3242BC2CE23007E15E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE49A3232BC2CE23007E15E4 /* GoogleService-Info.plist */; };
+		EE57B6742BC6CFF3005A32C5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE57B6732BC6CFF3005A32C5 /* GameScene.swift */; };
+		EE64D21C2BC6EC790077FAF6 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE64D21A2BC6EC790077FAF6 /* Fire.sks */; };
+		EE64D21D2BC6EC7A0077FAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE64D21B2BC6EC790077FAF6 /* Assets.xcassets */; };
+		EE64D21F2BC6ECED0077FAF6 /* blaster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE64D21E2BC6ECED0077FAF6 /* blaster.mp3 */; };
+		EE64D2212BC6ED3A0077FAF6 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE64D2202BC6ED3A0077FAF6 /* explosion.wav */; };
+		EE64D2242BC70C6D0077FAF6 /* BlogDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64D2232BC70C6D0077FAF6 /* BlogDetailsView.swift */; };
+		EE6FD7972BC2EB8B0027598A /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD7962BC2EB8B0027598A /* AuthView.swift */; };
+		EE6FD79A2BC2ED720027598A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD7992BC2ED720027598A /* UserModel.swift */; };
+		EE6FD79D2BC2EFDE0027598A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD79C2BC2EFDE0027598A /* View.swift */; };
+		EE6FD79F2BC2F0AC0027598A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD79E2BC2F0AC0027598A /* RegisterView.swift */; };
+		EE6FD7A12BC3225C0027598A /* LeadersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD7A02BC3225C0027598A /* LeadersManager.swift */; };
+		EE6FD7A32BC333C90027598A /* BlogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD7A22BC333C90027598A /* BlogItem.swift */; };
+		EE6FD7A52BC40C3D0027598A /* BlogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD7A42BC40C3C0027598A /* BlogManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE115C172BC2CF4300F37159 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		EE115C192BC2D48000F37159 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EE115C1B2BC2D50B00F37159 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EE115C1D2BC2D51A00F37159 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		EE115C202BC2D52900F37159 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE115C222BC2D53100F37159 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
+		EE115C252BC2D62D00F37159 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		EE49A2D12BC2C706007E15E4 /* Avia Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avia Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE49A2D42BC2C706007E15E4 /* Avia_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avia_GameApp.swift; sourceTree = "<group>"; };
 		EE49A2D62BC2C706007E15E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE49A2D82BC2C707007E15E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE49A2DB2BC2C707007E15E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE49A3232BC2CE23007E15E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE57B6732BC6CFF3005A32C5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EE64D21A2BC6EC790077FAF6 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		EE64D21B2BC6EC790077FAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE64D21E2BC6ECED0077FAF6 /* blaster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blaster.mp3; sourceTree = "<group>"; };
+		EE64D2202BC6ED3A0077FAF6 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		EE64D2232BC70C6D0077FAF6 /* BlogDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogDetailsView.swift; sourceTree = "<group>"; };
+		EE6FD7962BC2EB8B0027598A /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		EE6FD7992BC2ED720027598A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EE6FD79C2BC2EFDE0027598A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		EE6FD79E2BC2F0AC0027598A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EE6FD7A02BC3225C0027598A /* LeadersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadersManager.swift; sourceTree = "<group>"; };
+		EE6FD7A22BC333C90027598A /* BlogItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogItem.swift; sourceTree = "<group>"; };
+		EE6FD7A42BC40C3C0027598A /* BlogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +73,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE49A3022BC2CDF5007E15E4 /* FirebaseDatabase in Frameworks */,
+				EE49A2F42BC2CDF5007E15E4 /* FirebaseAnalyticsSwift in Frameworks */,
+				EE49A2F02BC2CDF5007E15E4 /* FirebaseAnalytics in Frameworks */,
+				EE49A2FC2BC2CDF5007E15E4 /* FirebaseAuth in Frameworks */,
+				EE49A3042BC2CDF5007E15E4 /* FirebaseDatabaseSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE115C242BC2D62500F37159 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				EE115C252BC2D62D00F37159 /* Color.swift */,
+				EE6FD79C2BC2EFDE0027598A /* View.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
 		EE49A2C82BC2C706007E15E4 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +112,14 @@
 		EE49A2D32BC2C706007E15E4 /* Avia Game */ = {
 			isa = PBXGroup;
 			children = (
+				EE6FD7982BC2ED670027598A /* Models */,
+				EE115C242BC2D62500F37159 /* Ext */,
+				EE49A3232BC2CE23007E15E4 /* GoogleService-Info.plist */,
+				EE49A2E62BC2C75B007E15E4 /* Audio */,
+				EE49A2E52BC2C756007E15E4 /* Particles */,
+				EE49A2E42BC2C74E007E15E4 /* Scenes */,
+				EE49A2E32BC2C74A007E15E4 /* Data */,
+				EE49A2E22BC2C743007E15E4 /* Views */,
 				EE49A2D42BC2C706007E15E4 /* Avia_GameApp.swift */,
 				EE49A2D62BC2C706007E15E4 /* ContentView.swift */,
 				EE49A2D82BC2C707007E15E4 /* Assets.xcassets */,
@@ -65,6 +134,146 @@
 				EE49A2DB2BC2C707007E15E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE49A2E22BC2C743007E15E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2252BC70DCC0077FAF6 /* Store */,
+				EE49A2ED2BC2C785007E15E4 /* Game */,
+				EE49A2EC2BC2C780007E15E4 /* Blog */,
+				EE49A2EB2BC2C77A007E15E4 /* LeaderBoard */,
+				EE49A2EA2BC2C775007E15E4 /* Settings */,
+				EE49A2E92BC2C76F007E15E4 /* MenuView */,
+				EE49A2E82BC2C769007E15E4 /* Register */,
+				EE49A2E72BC2C762007E15E4 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE49A2E32BC2C74A007E15E4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE115C172BC2CF4300F37159 /* AuthManager.swift */,
+				EE6FD7A02BC3225C0027598A /* LeadersManager.swift */,
+				EE6FD7A42BC40C3C0027598A /* BlogManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EE49A2E42BC2C74E007E15E4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE57B6722BC6CFE2005A32C5 /* Model */,
+				EE57B6712BC6CFD2005A32C5 /* Game */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EE49A2E52BC2C756007E15E4 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D21A2BC6EC790077FAF6 /* Fire.sks */,
+				EE64D21B2BC6EC790077FAF6 /* Assets.xcassets */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		EE49A2E62BC2C75B007E15E4 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				EE64D2202BC6ED3A0077FAF6 /* explosion.wav */,
+				EE64D21E2BC6ECED0077FAF6 /* blaster.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		EE49A2E72BC2C762007E15E4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD7962BC2EB8B0027598A /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EE49A2E82BC2C769007E15E4 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD79E2BC2F0AC0027598A /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		EE49A2E92BC2C76F007E15E4 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				EE115C192BC2D48000F37159 /* MenuView.swift */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		EE49A2EA2BC2C775007E15E4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE115C202BC2D52900F37159 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE49A2EB2BC2C77A007E15E4 /* LeaderBoard */ = {
+			isa = PBXGroup;
+			children = (
+				EE115C1D2BC2D51A00F37159 /* LeaderBoardView.swift */,
+			);
+			path = LeaderBoard;
+			sourceTree = "<group>";
+		};
+		EE49A2EC2BC2C780007E15E4 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				EE115C222BC2D53100F37159 /* BlogView.swift */,
+				EE64D2232BC70C6D0077FAF6 /* BlogDetailsView.swift */,
+			);
+			path = Blog;
+			sourceTree = "<group>";
+		};
+		EE49A2ED2BC2C785007E15E4 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE115C1B2BC2D50B00F37159 /* GameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE57B6712BC6CFD2005A32C5 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE57B6732BC6CFF3005A32C5 /* GameScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EE57B6722BC6CFE2005A32C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE64D2252BC70DCC0077FAF6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EE6FD7982BC2ED670027598A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD7992BC2ED720027598A /* UserModel.swift */,
+				EE6FD7A22BC333C90027598A /* BlogItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +292,13 @@
 			dependencies = (
 			);
 			name = "Avia Game";
+			packageProductDependencies = (
+				EE49A2EF2BC2CDF5007E15E4 /* FirebaseAnalytics */,
+				EE49A2F32BC2CDF5007E15E4 /* FirebaseAnalyticsSwift */,
+				EE49A2FB2BC2CDF5007E15E4 /* FirebaseAuth */,
+				EE49A3012BC2CDF5007E15E4 /* FirebaseDatabase */,
+				EE49A3032BC2CDF5007E15E4 /* FirebaseDatabaseSwift */,
+			);
 			productName = "Avia Game";
 			productReference = EE49A2D12BC2C706007E15E4 /* Avia Game.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +327,9 @@
 				Base,
 			);
 			mainGroup = EE49A2C82BC2C706007E15E4;
+			packageReferences = (
+				EE49A2EE2BC2CDF5007E15E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EE49A2D22BC2C706007E15E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +344,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE64D2212BC6ED3A0077FAF6 /* explosion.wav in Resources */,
 				EE49A2DC2BC2C707007E15E4 /* Preview Assets.xcassets in Resources */,
+				EE64D21C2BC6EC790077FAF6 /* Fire.sks in Resources */,
+				EE64D21F2BC6ECED0077FAF6 /* blaster.mp3 in Resources */,
 				EE49A2D92BC2C707007E15E4 /* Assets.xcassets in Resources */,
+				EE49A3242BC2CE23007E15E4 /* GoogleService-Info.plist in Resources */,
+				EE64D21D2BC6EC7A0077FAF6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +361,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE115C232BC2D53100F37159 /* BlogView.swift in Sources */,
+				EE64D2242BC70C6D0077FAF6 /* BlogDetailsView.swift in Sources */,
+				EE6FD7A12BC3225C0027598A /* LeadersManager.swift in Sources */,
+				EE115C212BC2D52900F37159 /* SettingsView.swift in Sources */,
+				EE6FD79F2BC2F0AC0027598A /* RegisterView.swift in Sources */,
 				EE49A2D72BC2C706007E15E4 /* ContentView.swift in Sources */,
+				EE6FD7A32BC333C90027598A /* BlogItem.swift in Sources */,
+				EE115C1A2BC2D48000F37159 /* MenuView.swift in Sources */,
+				EE115C182BC2CF4300F37159 /* AuthManager.swift in Sources */,
 				EE49A2D52BC2C706007E15E4 /* Avia_GameApp.swift in Sources */,
+				EE6FD7972BC2EB8B0027598A /* AuthView.swift in Sources */,
+				EE115C1E2BC2D51A00F37159 /* LeaderBoardView.swift in Sources */,
+				EE57B6742BC6CFF3005A32C5 /* GameScene.swift in Sources */,
+				EE6FD7A52BC40C3D0027598A /* BlogManager.swift in Sources */,
+				EE6FD79D2BC2EFDE0027598A /* View.swift in Sources */,
+				EE115C1C2BC2D50B00F37159 /* GameView.swift in Sources */,
+				EE115C262BC2D62D00F37159 /* Color.swift in Sources */,
+				EE6FD79A2BC2ED720027598A /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +515,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +529,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whackplikogame.Avia-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +549,13 @@
 				DEVELOPMENT_TEAM = 4RSA42DBKQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +563,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whackplikogame.Avia-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,6 +594,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE49A2EE2BC2CDF5007E15E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE49A2EF2BC2CDF5007E15E4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE49A2EE2BC2CDF5007E15E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EE49A2F32BC2CDF5007E15E4 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE49A2EE2BC2CDF5007E15E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		EE49A2FB2BC2CDF5007E15E4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE49A2EE2BC2CDF5007E15E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EE49A3012BC2CDF5007E15E4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE49A2EE2BC2CDF5007E15E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		EE49A3032BC2CDF5007E15E4 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE49A2EE2BC2CDF5007E15E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE49A2C92BC2C706007E15E4 /* Project object */;
 }
